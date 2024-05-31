@@ -24,8 +24,6 @@ I decided to violate last Morse code signaling rule and use 5 time units for spa
 
 I'm using [Logism](http://www.cburch.com/logisim/), It can take truth table as input and generate logical circuit. You can find Logism circuit files in `Design/Logism` directory. Generated circuit is not perfect and can be improved manually (by removing duplicated components and changing number of inputs for logical gates).
 
-Final result:
-
 <p align="center">
   <img src="Design/Logism/simulation.gif" alt="logism">
 </p>
@@ -39,7 +37,9 @@ General rules are:
 - choose R2 value much higher than R1 for 50% duty cycle;
 - C9 sets clock frequency. 330nF capacitor will generate 2Hz signal. To increase frequency, decrease C9 value.
 
-  ![555](Design/Images/555_schematic.png)
+<p align="center">
+  <img src="Design/Images/555_schematic.png" alt="555">
+</p>
 
 For generating 5-bit logic circuit input signal we'll need binary counter. It will divide clock signal frequency by 2/4/8/16 and so on.
 
@@ -58,7 +58,14 @@ USB-C socket CC lines are connected to ground via 5.1K ohm resistor. This tells 
 
 The circuit will have a small on-board LED for SOS signal output. Additionally, a high-side PMOS load switch can be connected to a larger load, such as a 12V lamp. An external power supply with a maximum of 40V will be needed for this.
 
-![555](Design/Images/load_switch.png)
+<img
+    style="display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%;"
+    src="Design/Images/load_switch.png"
+    alt="load">
+</img>
 
 ## PCB Design
 
