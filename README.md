@@ -1,6 +1,6 @@
 # SOS Business Card PCB
 
-This project was conceived for the [Hackaday 2024 Business Card Contest](https://hackaday.io/contest/195949-2024-business-card-contest). The idea was to create a logical circuit from discrete components that would generate an SOS signal in Morse code. I wanted to make this project a learning experience for creating logical circuits in a simple and practical way.
+This project was conceived for the [Hackaday 2024 Business Card Contest](https://hackaday.io/contest/195949-2024-business-card-contest). The idea was to create a logical circuit from discrete components that would generate a SOS signal in Morse code. I wanted to make this project a learning experience for creating logical circuits in a simple and practical way.
 
 ![pcb](Design/Images/pcb_top.png)
 
@@ -22,7 +22,7 @@ We see that 34 independent logical states are needed. This introduces a problem 
 
 I decided to violate last Morse code signaling rule and use 5 time units for spacing between words instead of 7.
 
-I'm using [Logism](http://www.cburch.com/logisim/), It can take truth table as input and generate logical circuit. You can find Logism circuit files in `Design/Logism` directory. Generated circuit is not perfect and can be improved manually (by removing duplicated components and changing number of inputs for logical gates).
+I'm using [Logism](http://www.cburch.com/logisim/), it can take truth table as input and generate logical circuit. You can find Logism circuit files in `Design/Logism` directory. Generated circuit is not perfect and can be improved manually (by removing duplicated components and changing number of inputs for logical gates).
 
 <div align="center">
     <img src="Design/Logism/simulation.gif" width="50%" alt="logism"/>
