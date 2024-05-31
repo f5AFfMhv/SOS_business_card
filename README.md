@@ -26,7 +26,9 @@ I'm using [Logism](http://www.cburch.com/logisim/), It can take truth table as i
 
 Final result:
 
-![logism](Design/Logism/simulation.gif)
+<p align="center">
+  <img src="Design/Logism/simulation.gif" alt="logism">
+</p>
 
 ## Clock Circuit Design
 
