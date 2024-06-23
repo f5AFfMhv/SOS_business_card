@@ -75,5 +75,6 @@ There are some custom symbols and footprints used in this project. Those can be 
     <img src="Design/Images/finished_board.jpg" width="100%" alt="board"/>
 </div>
 
+Youtube video.
 [<img src="https://img.youtube.com/vi/pKzfa068GOo/hqdefault.jpg" width="100%"
 />](https://www.youtube.com/embed/pKzfa068GOo)
