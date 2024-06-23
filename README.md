@@ -68,3 +68,12 @@ PCB is designed using KiCAD. All project and gerber files are in `KiCAD` directo
 Full [schematic](schematic.pdf) exported as pdf.
 
 There are some custom symbols and footprints used in this project. Those can be imported from [this](https://github.com/f5AFfMhv/my-kicad-libraries) github repository.
+
+## Finished Project
+
+<div align="center">
+    <img src="Design/Images/finished_board.jpg" width="100%" alt="board"/>
+</div>
+
+[<img src="https://img.youtube.com/vi/pKzfa068GOo/hqdefault.jpg" width="100%"
+/>](https://www.youtube.com/embed/pKzfa068GOo)
