@@ -14,13 +14,20 @@ jobs:
       - name: render pcb image
         uses: linalinn/kicad-render@main
         with:
-          pcb_file: KiCAD/sos_business_card.kicad_pcb
+          pcb_file: ${{ github.workspace }}/KiCAD/sos_business_card.kicad_pcb
           output_path: ${{ github.workspace }}/images
           background: transparent # Remove for no transparency
 
-      - name: Setup Pages
-        if: github.ref == 'refs/heads/main'
-        uses: actions/configure-pages@v5
+      - name: render pcb image
+        uses: linalinn/kicad-render@main
+        with:
+          pcb_file: ${{ github.workspace }}/KiCAD/sos_business_card.kicad_pcb
+          output_path: ${{ github.workspace }}/images
+          animation: gif
+
+      # - name: Setup Pages
+      #   if: github.ref == 'refs/heads/main'
+      #   uses: actions/configure-pages@v5
 
       - name: Upload Artifact
         if: github.ref == 'refs/heads/main'
